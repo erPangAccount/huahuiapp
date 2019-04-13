@@ -230,7 +230,7 @@
 					let index = list.findIndex(val => val.id === item.id);
 					index !== -1 && list.splice(index, 1);
 				});
-
+				
 			},
 			//取消订单
 			cancelOrder(item) {
@@ -356,7 +356,7 @@
 						stateTip = '退款成功';
 						break;
 					case 7:
-						stateTip = '退款失败';
+						stateTip = '拒绝退款';
 						break;
 
 					case 9:
