@@ -1,0 +1,5 @@
+<import src="/components/empty.vue.wxml" />
+<import src="/components/neil-modal/neil-modal.vue.wxml" />
+
+<template name="data-v-b6e84aee-default-5e74a14d-1"><view style="min-height: 90rpx;padding: 32rpx 24rpx;" class="_view data-v-b6e84aee"><view class="_view data-v-b6e84aee">需要支付<text style="color: #eb4981;" class="_text data-v-b6e84aee">￥ {{orderAmount}}</text>元</view></view></template>
+

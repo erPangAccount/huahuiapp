@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.uni-tag {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 32rpx;
+  height: 60rpx;
+  line-height: calc(60rpx - 2px);
+  font-size: 28rpx;
+  display: inline-block;
+  color: #333;
+  border-radius: 6rpx;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+}
+.uni-tag--circle {
+    border-radius: 30rpx;
+}
+.uni-tag--disabled {
+    opacity: 0.5;
+}
+.uni-tag--small {
+    height: 40rpx;
+    padding: 0px 16rpx;
+    line-height: calc(40rpx - 2px);
+    font-size: 24rpx;
+}
+.uni-tag--primary {
+    color: #fff;
+    background-color: #fa436a;
+    border: 1px solid #fa436a;
+}
+.uni-tag--primary.uni-tag--inverted {
+      color: #fa436a;
+      background-color: #ffffff;
+      border: 1px solid #fa436a;
+}
+.uni-tag--success {
+    color: #fff;
+    background-color: #4cd964;
+    border: 1px solid #4cd964;
+}
+.uni-tag--success.uni-tag--inverted {
+      color: #4cd964;
+      background-color: #ffffff;
+      border: 1px solid #4cd964;
+}
+.uni-tag--warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border: 1px solid #f0ad4e;
+}
+.uni-tag--warning.uni-tag--inverted {
+      color: #f0ad4e;
+      background-color: #ffffff;
+      border: 1px solid #f0ad4e;
+}
+.uni-tag--error {
+    color: #fff;
+    background-color: #dd524d;
+    border: 1px solid #dd524d;
+}
+.uni-tag--error.uni-tag--inverted {
+      color: #dd524d;
+      background-color: #ffffff;
+      border: 1px solid #dd524d;
+}
+.uni-tag--inverted {
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #f8f8f8;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 猜你喜欢 */
+.guess-section.data-v-ea30ffd6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 30rpx;
+  background: #fff;
+}
+.guess-section .guess-item.data-v-ea30ffd6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 50%;
+    min-width: 40%;
+    padding-bottom: 40rpx;
+}
+.guess-section .guess-item.data-v-ea30ffd6:nth-child(2n+1) {
+      margin-right: 20rpx;
+}
+.guess-section .image-wrapper.data-v-ea30ffd6 {
+    width: 100%;
+    height: 330rpx;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.guess-section .image-wrapper image.data-v-ea30ffd6 {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+}
+.guess-section .category-tag.data-v-ea30ffd6 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 10px;
+}
+.guess-section .title.data-v-ea30ffd6 {
+    font-size: 32rpx;
+    color: #303133;
+    line-height: 80rpx;
+}
+.guess-section .price.data-v-ea30ffd6 {
+    font-size: 32rpx;
+    color: #fa436a;
+    line-height: 1;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.empty-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #f8f8f8;
+  padding-bottom: 120rpx;
+}
+.empty-content-image {
+    width: 200rpx;
+    height: 200rpx;
+}
+

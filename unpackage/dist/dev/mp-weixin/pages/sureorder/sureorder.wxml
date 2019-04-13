@@ -1,0 +1,2 @@
+<import src="./sureorder.vue.wxml" />
+    <template is="5e74a14d" data="{{ ...$root['0'], $root }}"/>

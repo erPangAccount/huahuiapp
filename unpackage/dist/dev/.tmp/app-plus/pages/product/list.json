@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60,
+  "titleNView": {
+    "type": "transparent"
+  }
+}

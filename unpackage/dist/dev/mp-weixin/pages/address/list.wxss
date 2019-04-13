@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.separate.data-v-a14e5f3a {
+  width: 100%;
+  height: 24rpx;
+  background-color: #e9e9e9;
+}
+.add-address.data-v-a14e5f3a {
+  height: 88rpx;
+  color: #262626;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.add-address image.data-v-a14e5f3a {
+    margin-right: 12rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.list-warpper .list-body.data-v-a14e5f3a {
+  padding: 36rpx 28rpx;
+  font-size: 28rpx;
+  color: #262626;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.list-warpper .list-body .item-left.data-v-a14e5f3a {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.list-warpper .list-body .item-left .item-head.data-v-a14e5f3a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      height: 28rpx;
+      line-height: 28rpx;
+      margin-bottom: 24rpx;
+}
+.list-warpper .list-body .item-left .item-head .head-tag.data-v-a14e5f3a {
+        width: 80rpx;
+        text-align: center;
+        color: #fff;
+        background-color: #eb4981;
+        font-size: 24rpx;
+        margin-right: 20rpx;
+}
+.list-warpper .list-body .item-left .item-head .head-name.data-v-a14e5f3a {
+        font-weight: 700;
+        margin-right: 43rpx;
+}
+.list-warpper .list-body .item-left .item-head .head-price.data-v-a14e5f3a {
+        font-weight: 700;
+}
+.list-warpper .list-body .item-left .item-body.data-v-a14e5f3a {
+      line-height: 30rpx;
+      font-size: 26rpx;
+      color: #666666;
+      font-weight: 300;
+}
+.list-warpper .list-body .item-right.data-v-a14e5f3a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 210rpx;
+}
+.list-warpper .list-body .item-right image.data-v-a14e5f3a {
+      margin-right: 12rpx;
+      width: 50rpx;
+      height: 50rpx;
+}
+

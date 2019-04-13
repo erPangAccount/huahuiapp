@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 60,
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "searchInput": {
+      "backgroundColor": "rgba(231, 231, 231,.7)",
+      "borderRadius": "16px",
+      "placeholder": "请输入关键字",
+      "disabled": false,
+      "placeholderColor": "#606266"
+    },
+    "buttons": []
+  }
+}
